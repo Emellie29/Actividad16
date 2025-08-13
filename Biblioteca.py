@@ -81,4 +81,5 @@ while True:
     print("6. Eliminar estudiante")
     print("7. Salir")
     try:
-        opcion=int
+        opcion=int(input("Seleccione una opción: "))
+        match opcion:
